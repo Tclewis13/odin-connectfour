@@ -1,6 +1,5 @@
 class Space
-  attr_accessor :color
-  attr_writer :board_x, :board_y
+  attr_accessor :color, :board_x, :board_y
 
   def initialize(board_x, board_y)
     self.board_x = board_x

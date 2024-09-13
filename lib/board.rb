@@ -39,9 +39,11 @@ class Board
     while i >= 0
       if board_array[i][board_x].color == :white
         board_array[i][board_x].color = color
+        row = i
         break
       end
       i -= 1
     end
+    row
   end
 end
